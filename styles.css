@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #ED6F2D;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+.about {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.info {
+    flex: 1;
+}
+
+.skills {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #ED6F2D;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+ .button-link {
+      background-color: #ED6F2D; 
+      font-family: 'Helvetica'sans-serif;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+.contact {
+    padding: 40px 0;
+}
+
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
